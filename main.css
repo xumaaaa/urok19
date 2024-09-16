@@ -300,9 +300,129 @@
 .btn {
 }
 .contacts__text {
+    p {
+        color: #4D0122;
+        font-size: 26px;
+    }
 }
+
 .conact_icons {
     display: flex;
     gap: 40px;
     margin-top: 20px;
+
+    a{
+        transition: all 0.4s;
+
+    &:hover {
+        scale: 1.1;
+    }
+    }
 }
+
+.container6 {
+
+    background-color: #BF608A;
+   
+}
+
+
+.pena{
+    display: flex;
+    justify-content: center;
+ 
+     @media (max-width: 1100px) {
+         display: flex;
+         justify-content: center;
+         flex-direction: column;
+         padding-left: -140px;
+         
+     }
+     h4 {
+         font-size: 32px;
+         font-weight: 900;
+         line-height: 39.01px;
+         color: #FAFFE6;
+         padding-top: 70px;
+         padding-bottom: 30px;
+         margin: 0 auto;
+         max-width: 1600px;
+ 
+         
+     }
+ }
+ 
+     .wrap6 {
+         display: flex;
+         justify-content: center;
+         align-items: center;
+         gap: 239px;
+     
+         @media (max-width: 1100px) {
+             flex-wrap: wrap;
+             flex-direction: column;
+             gap: 30px;
+             
+         }
+     
+         
+     
+         
+         
+     
+         
+     
+         img{
+             width: 40px;
+             height: 40px;
+             padding-bottom: 10px;
+             padding-right: 40px;
+     
+             transition: all 0.4s;
+     
+             &:hover {
+                 scale: 1.1;
+     
+         }
+      
+         }
+     
+     }
+     
+     .text6{
+         display: flex;
+         justify-content: center;
+         gap: 50px;
+         align-items: center;
+     
+     
+         @media (max-width: 1100px) {
+             gap: 30px;
+             
+         }
+         @media (max-width: 600px) {
+             gap: 18px;
+             
+         }
+         
+         a {
+             font-size: 12px;
+             font-weight: 700;
+             line-height: 16px;
+             color: #FAFFE6;
+             text-decoration: none;
+             transition: all 0.4s;
+             border-bottom: 1px solid transparent;
+            
+     
+     
+             &:hover {
+                  border-bottom: 1px solid #FAFFE6;
+                  
+             } 
+     
+     
+             
+             
+         }
+     }
